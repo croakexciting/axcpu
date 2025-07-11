@@ -1,6 +1,7 @@
 #![cfg_attr(not(test), no_std)]
 #![cfg_attr(docsrs, feature(doc_cfg, doc_auto_cfg))]
 #![doc = include_str!("../README.md")]
+#![feature(used_with_arg)]
 
 #[macro_use]
 extern crate log;
